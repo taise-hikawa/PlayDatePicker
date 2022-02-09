@@ -14,6 +14,7 @@
 		D5DF30E627B259F400517964 /* PlayDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF30E527B259F400517964 /* PlayDatePickerTests.swift */; };
 		D5DF30F027B259F400517964 /* PlayDatePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF30EF27B259F400517964 /* PlayDatePickerUITests.swift */; };
 		D5DF30F227B259F400517964 /* PlayDatePickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF30F127B259F400517964 /* PlayDatePickerUITestsLaunchTests.swift */; };
+		D5DF30FF27B289B100517964 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF30FE27B289B100517964 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D5DF30EB27B259F400517964 /* PlayDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DF30EF27B259F400517964 /* PlayDatePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDatePickerUITests.swift; sourceTree = "<group>"; };
 		D5DF30F127B259F400517964 /* PlayDatePickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDatePickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5DF30FE27B289B100517964 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				D5DF30D627B259F100517964 /* ContentView.swift */,
 				D5DF30D827B259F300517964 /* Assets.xcassets */,
 				D5DF30DA27B259F300517964 /* Preview Content */,
+				D5DF30FE27B289B100517964 /* ContentViewModel.swift */,
 			);
 			path = PlayDatePicker;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				D5DF30D727B259F100517964 /* ContentView.swift in Sources */,
 				D5DF30D527B259F100517964 /* PlayDatePickerApp.swift in Sources */,
+				D5DF30FF27B289B100517964 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayDatePicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z2LN23FC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -447,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayDatePicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z2LN23FC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
